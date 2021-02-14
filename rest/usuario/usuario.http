@@ -1,0 +1,12 @@
+GET http://localhost:3000/api/usuario
+
+###
+
+POST http://localhost:3000/api/usuario 
+content-type: application/json
+
+{
+    "nome": "Maria Joaquina da Silva",
+    "telefone": "6232255447",
+    "email": "maria@email.com"
+}
